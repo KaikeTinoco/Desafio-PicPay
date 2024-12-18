@@ -14,7 +14,7 @@ import java.math.BigDecimal;
 @Entity(name = "Users")
 @Table(name = "Users")
 @EqualsAndHashCode(of="id")
-public abstract class User {
+public  class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
